@@ -6,5 +6,5 @@ const giveMeRightCondition = (value1, value2, maximum) => {
       console.log('Something wrong!');
   }
 }
-giveMeRightNumbers(100, 200, 50)
+giveMeRightCondition(100, 200, 50)
 
