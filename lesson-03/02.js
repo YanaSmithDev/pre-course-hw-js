@@ -9,9 +9,11 @@ const words = ["яблоко", "банан", "апельсин", "манго", "
 function findOrange(massive) {
   if (massive.indexOf("апельсин") != -1) {
     console.log ("Ура! нашел");
+  } else {
+    console.log ("Придется поискать в другом магазине…");
   }
 
-  console.log ("Придется поискать в другом магазине…");
+  
 }
 
 findOrange(words);
